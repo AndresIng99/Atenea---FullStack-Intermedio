@@ -1,0 +1,7 @@
+img{
+    width: 200px;
+    height: auto;
+}
+.rm, .barca, .juve{
+    display: none;
+}

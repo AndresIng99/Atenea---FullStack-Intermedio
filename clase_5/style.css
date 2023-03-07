@@ -1,0 +1,7 @@
+.btn{
+    width: 100%;
+}
+.mi_botoncito:hover{
+    height: 500px;
+    transition: all 5s;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Todos a la U - ATENEA",
+    "short_name": "ATENEA",
+    "description": "Esta es una página realizada para el curso de FullStack intermedio, en la unidad de PWA",
+    "background_color": "#FFFFFF",
+    "theme-color": "#2D2C3C",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_souerce=web_app_manifest",
+    "scope": "./",
+    "lang": "es-CO"
+}

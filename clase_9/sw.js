@@ -7,6 +7,8 @@ const CACHE_NAME = 'v1_curso_atenea',
     './css/style.css',
     './script.js',
     './sw.js',
+    'https://kit.fontawesome.com/27010df775.css',
+    'https://kit.fontawesome.com/27010df775.js',
     './resources/'
   ]
 

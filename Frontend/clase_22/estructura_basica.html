@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="" target="_blank">
     <title>Document</title>
 </head>
 <body>
@@ -29,5 +30,76 @@
     <a href="mailto:andresdeveloper99@gmail.com?cc=copia@destinatario.com;
     segundacopia@destinatario.com&bcc=copiaoculta@destinatario.com&subject=Asunto%20con%20espacios&body=Este%20es%20el%20cuerpo%20del%20mensaje">andresdeveloper99@gmail.com</a>
     <a href="https://api.whatsapp.com/send/?phone=3246802565">+573246802565</a>
+
+    <!--Etiqueta abbr sirve para resaltar alguna palabra abreviada y al pasar el mouse
+    nos muestra el significado-->
+        <p><dfn><abbr title="Cascading Style Sheets">CSS</abbr>
+    </dfn> is a language that describes the style of an HTML document.</p>
+    <p> El  <dfn><abbr title="Hypertext Markup Language">HTML</abbr>
+    </dfn> se utiliza para definir la estrucutura de una pagina web</p>
+
+
+    <!--Etiqueta address permite identificar de mejor manera la direccion de contacto de un sitio web-->
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <!--Etiqueta map - area, permite mapear imagenes y faccionarla para añadir funcionamiento-->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+
+
+    <!--Etiqueta article, define un articulo de un sitio web-->
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+        
+        <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+        </article>
+        
+        <article>
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+    </article>
+
+    <!--Etiqueta aside barra lateral, comunmente usada para publicidad, o filtros de un blog, noticias, entre otros-->
+    <aside>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </aside>
+
+
+    <!--Etiqueta audio permite agregar audios al sitio web con diversas opciones de configuración-->
+    <audio autoplay controls>
+        <source src="audio3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!--Etiqueta b permite dar reelevancia a un texto y funciona similar al strong y la negrilla en word-->
+    <p>This is normal text - <b>and this is bold text</b>.</p>
+
+
+    <h1>The blockquote element</h1>
+
+    <p>Here is a quote from WWF's website:</p>
+    <!--Etiqueta blockquote permite citas de un sitio web algo que estomando (blog, comentario) para mejorar
+    la indexación de nuestro sitio web-->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+
+
 </body>
 </html>

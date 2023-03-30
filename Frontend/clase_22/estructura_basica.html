@@ -100,6 +100,34 @@
         For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
     </blockquote>
 
+    <!--Etiqueta br funciona como un salto de linea-->
+    <p>hola mi nombre es Andrés <br> mi apellido es Pineda <br> mi número de cel es 111111  </p>
+
+    <!--Etiqueta button, es un botón que puede tener diversas funciones al ser ejecutado-->
+    <button type="button" autofocus disabled onclick="alert('ESTA ES UN ALERTA ME VOY A COMPRAR UNA Z1000')">Click Me!</button>
+    <button type="button" autofocus  onclick="funcion()">Click Me!</button>
+
+
+    <script>
+        function  funcion() {
+            window.location.href = 'https://api.whatsapp.com/send/?phone=3246802565';
+        }
+    </script>
+    
+
+    <!--CANVAS-->
+
+    <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.moveTo(0, 0);       
+        ctx.fillline(0, 0, 100, 100);
+        ctx.stroke();
+    </script>
+
 
 </body>
 </html>

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="" target="_blank">
-    <title>Document</title>
+    <link rel="icon" href="chip.ico" type="image/x-icon">
+    <title>EJERCICIOS HTML5</title>
 </head>
 <body>
     
@@ -128,6 +129,87 @@
         ctx.stroke();
     </script>
 
+    <!--Ejemplo de etiquedas de tablas-->
 
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr >
+                <th style="border: 1px solid black;" colspan="2">id y nombre</th>
+                <th style="border: 1px solid black;">apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black;">1</td>
+                <td style="border: 1px solid black;">Andrés</td>
+                <td style="border: 1px solid black;">Pineda</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DYLAN </td>
+                <td>RAMIREZ </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CAMILA </td>
+                <td>BERNAL </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <embed  src="https://getbootstrap.com/docs/4.0/content/tables/"  width="500" height="500">
+
+
+ <!--Ejemplo de fieldset-->
+
+        <style>
+            fieldset{
+              border-radius: 20px;
+              border: 1px dotted #c2c2c2;
+              box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+            }
+            </style>
+            <form action="/action_page.php">
+             <fieldset>
+              <legend>Personalia:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="checkbox" name="" id="">
+              <input type="email" name="" id="">
+              <input type="file" name="" id="">
+              <input type="radio" name="" id="">
+              <input type="tel" name="" id="">
+              <input type="range" name="" id="">
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="reset" value="">
+              <input type="submit" value="Submit">
+             </fieldset>
+            </form>
+
+ <!--Ejemplo de iframe similar a embebed-->
+
+
+            <iframe src="Actividad M06 FSI.pdf" width="500" height="500"></iframe>
+
+
+ <!--Ejemplo de idesplegable-->
+            <details>
+                <summary>Epcot Center</summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                <img src="workplace.jpg" alt="">
+            </details>
+
+
+            <video width="320" height="240" controls>
+                <source src="aptitud-fisica-148208.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
 </body>
 </html>

@@ -3,7 +3,6 @@
 
 body{  
     background-image: linear-gradient(194deg, #44A08D, #093637);
-    height: 100vh;
 }
 header{
     width: 100%;
@@ -34,3 +33,32 @@ header nav ul li a{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+#main_frame{
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+    display: flex;
+}
+#main_frame .description{
+    width: 40%;
+    height: 100%;
+}
+#main_frame .product{
+    width: 60%;
+    height: 100%;
+}
+#main_frame .product h3{
+    font-size: 580px;
+    line-height: 0px;
+    margin-top: 230px;
+    color: #cecece51;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#main_frame img{
+    position: absolute;
+    top: 130px;
+    right: 80px;
+    width: 880px;
+}
+

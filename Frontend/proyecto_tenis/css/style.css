@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
 
 body{  
@@ -36,19 +36,39 @@ header nav ul li a{
 #main_frame{
     width: 100%;
     height: 750px;
-    margin-top: 100px;
+    margin-top: 40px;
     display: flex;
 }
 #main_frame .description{
     width: 40%;
     height: 100%;
+    background-color: burlywood;
+    color: white;
+    padding: 0px 50px;
+}
+#main_frame .description h1{
+    font-size: 85px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#main_frame .description h1 sup{
+    font-size: 45px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+#main_frame .description span{
+    font-size: 22px;
+}
+#main_frame .description p{
+    font-size: 18px;
+    text-align: justify;
 }
 #main_frame .product{
     width: 60%;
     height: 100%;
 }
 #main_frame .product h3{
-    font-size: 580px;
+    font-size: 570px;
     line-height: 0px;
     margin-top: 230px;
     color: #cecece51;
@@ -58,7 +78,34 @@ header nav ul li a{
 #main_frame img{
     position: absolute;
     top: 130px;
-    right: 80px;
-    width: 880px;
+    right: 150px;
+    width: 740px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+}
+footer .selector-product{
+    width: 350px;
+    height: 40px;
+    margin-left: 300px;
+    margin-bottom: -40px;
+}
+footer .selector-product img{
+    height: 80px;
+}
+footer .social-media{
+    width: 350px;
+    height: 80px;
+    float: right;
+    margin-bottom: 0px;
+}
+footer .social-media i{
+    color: white;
+    font-size: 22px;
+    padding: 30px 20px 0px 20px;
+}
+footer .selector-product .teni_reverse{
+    transform: scaleX(-1);
 }
 

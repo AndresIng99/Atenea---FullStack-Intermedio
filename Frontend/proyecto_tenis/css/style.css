@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
 
 body{  
-    background-image: linear-gradient(194deg, #44A08D, #093637);
+    /*background-image: linear-gradient(194deg, #44A08D, #093637);
+    background-image: linear-gradient(194deg, #2C3E50, #4CA1AF);*/
+    background-image: linear-gradient(194deg, #000000, #373737);
+    
 }
 header{
     width: 100%;
@@ -33,6 +36,9 @@ header nav ul li a{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+header nav ul li a:hover{
+    color: rgb(196, 55, 55);
+}
 #main_frame{
     width: 100%;
     height: 750px;
@@ -42,13 +48,12 @@ header nav ul li a{
 #main_frame .description{
     width: 40%;
     height: 100%;
-    background-color: burlywood;
     color: white;
     padding: 0px 50px;
+    font-family: 'Roboto', sans-serif;
 }
 #main_frame .description h1{
     font-size: 85px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
 #main_frame .description h1 sup{
@@ -62,6 +67,36 @@ header nav ul li a{
 #main_frame .description p{
     font-size: 18px;
     text-align: justify;
+    font-weight: 300;
+}
+#main_frame .description button{
+    padding: 15px 20px;
+    background-color: #0000007d;
+    border-radius: 100px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px #ffffff7c;
+}
+#main_frame .contain-size{
+    width: 100%;
+    height: 35px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+#main_frame .contain-size .size{
+    width: 55px;
+    border-radius: 20px;
+    height: 100%;
+    margin: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.781);
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 35px;
 }
 #main_frame .product{
     width: 60%;
@@ -70,7 +105,7 @@ header nav ul li a{
 #main_frame .product h3{
     font-size: 570px;
     line-height: 0px;
-    margin-top: 230px;
+    margin-top: 300px;
     color: #cecece51;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -79,11 +114,12 @@ header nav ul li a{
     position: absolute;
     top: 130px;
     right: 150px;
-    width: 740px;
+    width: 800px;
 }
 footer{
     width: 100%;
-    height: 80px;
+    margin-top: -20px;
+    height: 100px;
 }
 footer .selector-product{
     width: 350px;
@@ -98,7 +134,7 @@ footer .social-media{
     width: 350px;
     height: 80px;
     float: right;
-    margin-bottom: 0px;
+    margin-top: 30px;
 }
 footer .social-media i{
     color: white;

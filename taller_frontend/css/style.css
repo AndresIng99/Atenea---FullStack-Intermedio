@@ -59,3 +59,29 @@
 .p7_nav a{
     color: white;
 }
+
+/*Punto 8*/
+.p8_table{
+    background-color: yellow;
+    border-top: 1px dotted;
+    border-bottom: 2px red dashed;
+    border-spacing: 0px;
+}
+.p8_table thead th{
+    color: red;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.p8_table thead th::first-letter{
+    font-size: 18px;
+    font-weight: bold;
+}
+.p8_table td{
+    border: 1px dotted;
+}
+
+.p8_table tr{
+    padding: 0px;
+    margin: 0px;
+}

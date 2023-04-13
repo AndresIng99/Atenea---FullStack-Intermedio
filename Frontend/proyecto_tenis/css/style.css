@@ -6,7 +6,7 @@ body{
     background-image: linear-gradient(194deg, #2C3E50, #4CA1AF);
     background-image: linear-gradient(194deg, #000000, #373737);*/
     background-image: linear-gradient(194deg, #44A08D, #093637);
-    
+    background-attachment: fixed;
 }
 header{
     width: 100%;
@@ -174,7 +174,6 @@ footer .selector-product .teni_reverse{
         right: 30px;
     }
 }
-
 @media (max-width: 1441px) {
     #main_frame .product h3{
         font-size: 200px;
@@ -199,7 +198,6 @@ footer .selector-product .teni_reverse{
         margin-left: 30px;
     }
 }
-
 @media (max-width: 1150px) {
     #main_frame{
         display: inline-table;
@@ -227,7 +225,6 @@ footer .selector-product .teni_reverse{
         text-shadow: 0px 0px 8px rgba(38, 38, 38, 0.679);
     }
 }
-
 @media (max-width: 983px) {
     #main_frame img{
         width: 500px;
@@ -284,7 +281,6 @@ footer .selector-product .teni_reverse{
         margin: 50px auto;
     }
 }
-
 @media (max-width: 684px) {
     #main_frame img{
         width: 350px;

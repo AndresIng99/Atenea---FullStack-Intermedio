@@ -1,0 +1,12 @@
+
+.contenedor{
+    width: 450px;
+    height: 350px;
+    background-color: aqua;
+}
+.contenedor .hijo{
+    width: 150px;
+    height: 250px;
+    background-position: ;
+    background-color: rgb(160, 198, 46);
+}

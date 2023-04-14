@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+.content{
+    width: 100%;
+    background-color: #E33C31;
+    height: 200px;
+    padding: 30px;
+}
+h1{
+    font-size: 40px;
+    color: black;
+    line-height: 16px;
+    font-family: 'Irish Grover', cursive;
+}
+h1 span{
+    font-size: 35px;
+    padding-left: 5px;
+    color: #00000086;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.366);
+    font-family: 'Irish Grover', cursive;
+}
+h1 .subtitle{
+    font-size: 18px;
+    padding-left: 100px;
+    font-family: 'Irish Grover', cursive;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Llamado a librerias-->
+    <script src="https://kit.fontawesome.com/27010df775.js" crossorigin="anonymous"></script>
+    <script src='https://cdn.plot.ly/plotly-2.20.0.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
+    <title>Proyecto de gráficas</title>
+</head>
+<body>
+    <section id="content-main">
+        <div class="menu-main">
+            <img src="img/logo.png" alt="">
+            <nav>
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-solid fa-car"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-cloud-sun"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-wallet"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-comments"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-gift"></i></a>
+                    </li>
+                </ul>
+                <div class="icon-android">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+            </nav>
+        </div>
+
+        <div class="shop_cars">
+            <h2>C. shop</h2>
+            <div class="element_ind">
+                <img class="rotate_car" src="img/car1.png" alt="car1">
+                <span>Veyron</span>
+            </div>
+            <div class="element_ind">
+                <img src="img/car2.png" alt="car1">
+                <span>G. sport</span>
+            </div>
+            <div class="element_ind">
+                <img src="img/car3.png" alt="car1">
+                <span>Centodieci</span>
+            </div>
+        </div>
+
+        <div class="graphic-main">
+            <div class="content-card-one">
+                <div class="indiv left">
+                    <div class="icon-ind">
+                        <i class="fa-regular fa-handshake"></i>
+                    </div>
+                    <div class="cont-info">
+                        <h3>75 %  <span>Reliability num.</span></h3>
+                    </div>
+                    <h4>R.<span>9.5</span></h4>
+                </div>
+                <div class="indiv">
+                    <div class="icon-ind green">
+                        <i class="fa-regular fa-handshake"></i>
+                    </div>
+                    <div class="cont-info">
+                        <h3>97 %  <span>Owner satisfaction.</span></h3>
+                    </div>
+                    <h4>R.<span>9.9</span></h4>
+                </div>
+            </div>
+            <div class="graphic">
+                <div id='myDiv'></div>
+            </div>
+        </div>
+
+        <div class="tridimensional">
+            <model-viewer src="img/NeilArmstrong.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+                <div id="ar-prompt">
+                    <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                </div>
+            </model-viewer>
+            
+        </div>
+        
+    </section>
+
+    <script src="js/map1.js"></script>
+</body>
+</html>

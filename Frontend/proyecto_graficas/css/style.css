@@ -163,6 +163,85 @@
     border-radius: 14px;
 }
 
+#content-main .graphic-main .graphic_2{
+    margin-top: 15px;
+    width: 90%;
+    height: 220px;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 14px;
+}
+
+#content-main .graphic-main .graphic_2 .title_graphic{
+    width: 100%;
+    height: 90px;
+    display: inline-flex;
+}
+#content-main .graphic-main .graphic_2 .title_graphic .left_graphic h2{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+#content-main .graphic-main .graphic_2 .title_graphic .left_graphic{
+    width: 220px;
+}
+#content-main .graphic-main .graphic_2 .title_graphic span{
+    padding-top: 10px;
+    padding-left: 25px;
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#content-main .graphic-main .graphic_2 .title_graphic .right_graphic{
+    float: right;
+    margin-top: 25px;
+    margin-left: 55%;
+}
+
+
+#content-main .graphic-main .graphic_2 .content-graph{
+    width: 100%;
+    margin-top: 40px;
+    display: inline-flex;
+    height: 90px;
+}
+#content-main .graphic-main .graphic_2 .content-graph h2{
+    font-size: 18px;
+}
+
+#content-main .graphic-main .graphic_2 .lf-g{
+    width: 25%;
+    margin-left: 25px;
+    height: 100%;
+}
+#content-main .graphic-main .graphic_2 .center-g{
+    width: 30%;
+    height: 70%;
+    margin-top: 4%;
+}
+#content-main .graphic-main .graphic_2 .lf-g h2 span{
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#content-main .graphic-main .graphic_2 .right-g{
+    width: 43%;
+    height: 70%;
+    margin-top: 2%;
+}
+#content-main .graphic-main .graphic_2 .right-g .progress{
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+}
+#content-main .graphic-main .graphic_2 .right-g .progress-bar{
+    background-color: #66bfa3;
+    border-radius: 50px;
+}
+
+
+
 #content-main .graphic-main .graphic #myDiv{
     max-width: 90%;
     height: 90%;
@@ -176,7 +255,12 @@
     height: 100%;
     background-color: rgb(9, 49, 83);
 }
-
+#content-main .tridimensional .ind-3d{
+    width: 70%;
+    height: 280px;
+    margin: 25px auto;
+    background-color: #66bfa3;
+}
 #content-main .tridimensional model-viewer{
     width: 100%;
     height: 100%;

@@ -11,10 +11,15 @@
     
     <?php 
     //Esto es un comentarion de una sola linea 
+
+    #Comentario de una sola linea
+
     /*Esto es 
     un comentario
     de multiples
     lineas*/
+
+    /*
         const CONSTANTE = 5;
         $CONSTANTE = 3;
             $a = 10;
@@ -23,6 +28,12 @@
                 echo $a.'</br>';
                 $a--;
             }
+
+            function funcioncita(){
+                return 67;
+            }
+*/
+            echo funcioncita();
         
     ?>
 </body>

@@ -1,0 +1,26 @@
+body{
+    background: url('../img/background_cal_3.jpg') no-repeat;
+    background-size: cover;
+
+}
+.main-frame-cal{
+    width: 50%;
+    padding: 50px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.759);
+    box-shadow: 0px 0px 20px 0px rgba(110, 110, 110, 0.775);
+    margin: 7% auto;
+}
+.main-frame-cal label{
+    font-weight: bold;
+}
+button{
+    float: right;
+}
+.home{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+}

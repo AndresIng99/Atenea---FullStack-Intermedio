@@ -3,6 +3,7 @@
     include 'db/conexion.php';
 
     $query = mysqli_query($conexion,"SELECT * FROM usuarios");
+    $query2 = mysqli_query($conexion,"SELECT cedula FROM usuarios");
 
 ?>
 <!DOCTYPE html>
@@ -47,6 +48,7 @@
             <thead>
             <tr  class="myHead">
                 <th>#</th>
+                <th>id</th>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Cédula</th>
@@ -64,6 +66,7 @@
 
                 echo'
                 <tr data-url="FQS7i2z1CoA">
+                    <td></td>
                     <td>'.$id.'</td>
                     <td>'.$nombre.'</td>
                     <td>'.$apellido.'</td>
@@ -87,10 +90,54 @@
         </ul>
         </div>
 
-
         </div>
 
         </div>
+
+
+
+            <h1>FORMULARIO DE INSERT</h1>
+        <form action="back/almacenar_datos.php" method="POST">
+            <input type="text" name="nombre" placeholder="Digite el nombre">
+            <input type="text" name="apellido" placeholder="Digite apellido">
+            <input type="number" name="cedula" placeholder="Digite la número de cedula">
+            <input type="submit" name="almacenar" value="guardar">
+        </form>
+
+        <h1>FORMULARIO DE UPDATE</h1>
+
+        <form action="" method="POST">
+            <select name="id_consulta">
+            <?php
+            while ($datos2 = mysqli_fetch_array($query2)) {
+                $cedula_query = $datos2['cedula'];
+                echo'
+                <option value="'.$cedula_query.'">'.$cedula_query.'</option>
+                ';
+            }
+            ?>
+            </select>
+            <input type="submit" name="buscar" value="buscar">
+        </form>
+
+        <?php
+        
+        if (isset($_POST['buscar'])) {
+            $id_cc_query = $_POST['id_consulta'];
+            echo '
+            <h4>Ingrese los nuevos datos para la cedula='.$id_cc_query.'</h4>
+            <form action="back/actualizar_datos.php" method="POST">
+                <input type="text" name="nombre_act" placeholder="Digite nuevo nombre">
+                <input type="hidden" value="'.$id_cc_query.'" name="cc">
+                <input type="text" name="apellido_act" placeholder="Digite nuevo apellido">
+                <input type="submit" name="act" value="actualziar">
+            </form>
+            ';
+        }
+
+        ?>
+
+
         
         <script src="js/script.js"></script>
 </body>

@@ -32,6 +32,10 @@
     padding: 15px;
 
 }
+
+table tr td{
+    text-transform: uppercase;
+}
 .modal-close {
     position: absolute;
     top: 0;

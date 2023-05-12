@@ -9,7 +9,7 @@ include '../db/conexion.php';
 
             mysqli_query($conexion,"INSERT INTO usuarios
             (nombre, apellido, cedula) VALUES
-            ('$name', '$last_name', '$cc')");
+            (UPPER('$name'), UPPER('$last_name'), '$cc')");
         }
         header ('location: ../datos.php')
 ?>

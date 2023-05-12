@@ -140,5 +140,13 @@
 
         
         <script src="js/script.js"></script>
+        <script>
+            <script type="text/javascript">
+                function upperCase() {
+                var x=document.getElementById("fname").value
+                document.getElementById("fname").value=x.toUpperCase()
+                }
+            </script>
+        </script>
 </body>
 </html>

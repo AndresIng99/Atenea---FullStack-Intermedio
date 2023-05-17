@@ -15,6 +15,19 @@ include '../db/conexion.php';
 		}
 
         $query_cars = mysqli_query($conexion,"SELECT * FROM carros");
+        $query_cars2 = mysqli_query($conexion,"SELECT * FROM carros");
+
+        /*Lógica para gráfica*/
+        $cant = 0;
+        while ($consult_graf = mysqli_fetch_array($query_cars2)){
+            $array_marca[$cant] = $consult_graf['marca'];
+            $array_ventas[$cant] = $consult_graf['ventas'];
+            $cant++;
+        }
+
+        $datosX = json_encode($array_marca);
+        $datosY = json_encode($array_ventas);
+
 
 ?>
 <!DOCTYPE html>
@@ -25,8 +38,8 @@ include '../db/conexion.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <!--Llamado a librerias-->
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
     <script src="https://kit.fontawesome.com/27010df775.js" crossorigin="anonymous"></script>
-    <script src='https://cdn.plot.ly/plotly-2.20.0.min.js'></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
@@ -109,31 +122,8 @@ include '../db/conexion.php';
             <div class="graphic">
                 <div id='myDiv'></div>
             </div>
-            <div class="graphic_2">
-                <div class="title_graphic">
-                    <div class="left_graphic">
-                        <h2>Custom. F</h2>
-                        <span>All yar Activity</span>
-                    </div>
-                    <div class="right_graphic">
-                        <span>gkjhdfhg</span>
-                    </div>
-                </div>
-                <div class="content-graph">
-                    <div class="lf-g">
-                        <h2>2012 <span>start</span></h2>
-                        <br>
-                        <h2>2019 <span>now</span></h2>
-                    </div>
-                    <div class="center-g">
-                        <h2>80 mph  .  1254 nm</h2>
-                    </div>
-                    <div class="right-g">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="graphic">
+                <div id='myDiv2'></div>
             </div>
         </div>
 
@@ -176,6 +166,67 @@ include '../db/conexion.php';
         
     </section>
 
-    <script src="js/map1.js"></script>
+    <script type="text/javascript">
+    function crearArreglo(json){
+        var parsed = JSON.parse(json);
+        var arr = [];
+        for (var x in parsed){
+            arr.push(parsed[x]);
+        }
+        return arr;
+    }   
+
+        $datosX = crearArreglo('<?php echo $datosX ?>');
+        $datosY = crearArreglo('<?php echo $datosY ?>');
+
+        var trace1 = {
+            x: $datosX,
+            y: $datosY,
+            line: {
+                color: 'rgb(77, 209, 205)',
+                shape: 'spline',
+                dash: 'dashdot',
+                width: 2
+            },
+            type: 'scatter'
+            };
+
+
+            var data = [trace1];
+
+
+            
+
+            Plotly.newPlot('myDiv', data);
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+        var data2 = [{
+        values: $datosY,
+        labels:  $datosX,
+        type: 'pie'
+        }];
+
+        var layout = {
+        height: 400,
+        width: 500
+        };
+
+        Plotly.newPlot('myDiv2', data2, layout);
+
+    </script>
 </body>
 </html>

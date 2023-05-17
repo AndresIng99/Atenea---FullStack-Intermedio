@@ -256,7 +256,7 @@
     height: 100%;
     border: solid 2px #000;
 }
-table th{
+table th, table td{
     text-align: center;
 }
 #content-main .tridimensional .ind-3d{

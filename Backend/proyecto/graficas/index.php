@@ -155,6 +155,19 @@ include '../db/conexion.php';
                     <th>Marca</th>
                     <th>Ventas</th>
                 </tr>
+                <?php
+                    while ($row = mysqli_fetch_array($query_cars)) {
+                        $marca = $row['marca'];
+                        $ventas = $row['ventas'];
+
+                    echo '
+                    <tr>
+                        <td>'.$marca.'</td>
+                        <td>'.$ventas.'</td>
+                    </tr>
+                    ';
+                    }
+                ?>
             </table>
 
         </div>

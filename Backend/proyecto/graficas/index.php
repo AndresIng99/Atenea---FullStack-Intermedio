@@ -22,13 +22,18 @@ include '../db/conexion.php';
         while ($consult_graf = mysqli_fetch_array($query_cars2)){
             $array_marca[$cant] = $consult_graf['marca'];
             $array_ventas[$cant] = $consult_graf['ventas'];
+
             $cant++;
         }
 
+        $total_ventas = array_sum($array_ventas);
+        
         $datosX = json_encode($array_marca);
         $datosY = json_encode($array_ventas);
 
 
+
+        
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -105,7 +110,7 @@ include '../db/conexion.php';
                         <i class="fa-regular fa-handshake"></i>
                     </div>
                     <div class="cont-info">
-                        <h3>75 %  <span>Reliability num.</span></h3>
+                        <h3> <?php echo $total_ventas?>  <span>Total ventas.</span></h3>
                     </div>
                     <h4>R.<span>9.5</span></h4>
                 </div>
@@ -114,7 +119,12 @@ include '../db/conexion.php';
                         <i class="fa-regular fa-handshake"></i>
                     </div>
                     <div class="cont-info">
-                        <h3>97 %  <span>Owner satisfaction.</span></h3>
+                        <h3>
+                        <?php
+                        rsort($array_ventas);
+                        echo $array_ventas[0];
+                        ?>    
+                        <span>% de venta mas alto</span></h3>
                     </div>
                     <h4>R.<span>9.9</span></h4>
                 </div>
@@ -144,20 +154,28 @@ include '../db/conexion.php';
                 <tr>
                     <th>Marca</th>
                     <th>Ventas</th>
+                    <th>% de Ventas</th>
                 </tr>
                 <?php
                     while ($row = mysqli_fetch_array($query_cars)) {
                         $marca = $row['marca'];
                         $ventas = $row['ventas'];
-
+                        $por_ventas = ($ventas*100)/$total_ventas;
+                        $por_ventas = round($por_ventas, 1);
                     echo '
                     <tr>
                         <td>'.$marca.'</td>
                         <td>'.$ventas.'</td>
+                        <td>'.$por_ventas.' %</td>
                     </tr>
                     ';
                     }
                 ?>
+                <tr>
+                        <th>TOTAL = </th>
+                        <th> <?php echo $total_ventas ?></th>
+                        <th>100%</th>
+                    </tr>
             </table>
 
         </div>

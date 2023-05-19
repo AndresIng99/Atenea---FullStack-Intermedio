@@ -104,6 +104,11 @@ include '../db/conexion.php';
         </div>
 
         <div class="graphic-main">
+
+        <?php
+        if ($_SESSION['rol'] == 1) {
+        ?>
+
             <div class="content-card-one">
                 <div class="indiv left">
                     <div class="icon-ind">
@@ -129,6 +134,12 @@ include '../db/conexion.php';
                     <h4>R.<span>9.9</span></h4>
                 </div>
             </div>
+        <?php
+        }else{
+            echo "";
+        }
+        ?>
+
             <div class="graphic">
                 <div id='myDiv'></div>
             </div>

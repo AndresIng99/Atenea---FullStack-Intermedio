@@ -190,72 +190,14 @@ include '../db/conexion.php';
             </table>
 
         </div>
-
-        
-        
     </section>
 
-    <script type="text/javascript">
-    function crearArreglo(json){
-        var parsed = JSON.parse(json);
-        var arr = [];
-        for (var x in parsed){
-            arr.push(parsed[x]);
-        }
-        return arr;
-    }   
+    <script src="js/code.js"></script>
+    
+    <?php
+        include 'js/grafica1.php';
+        include 'js/grafica2.php';
+    ?>
 
-        $datosX = crearArreglo('<?php echo $datosX ?>');
-        $datosY = crearArreglo('<?php echo $datosY ?>');
-
-        var trace1 = {
-            x: $datosX,
-            y: $datosY,
-            line: {
-                color: 'rgb(77, 209, 205)',
-                shape: 'spline',
-                dash: 'dashdot',
-                width: 2
-            },
-            type: 'scatter'
-            };
-
-
-            var data = [trace1];
-
-
-            
-
-            Plotly.newPlot('myDiv', data);
-
-    </script>
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript">
-
-
-        var data2 = [{
-        values: $datosY,
-        labels:  $datosX,
-        type: 'pie'
-        }];
-
-        var layout = {
-        height: 400,
-        width: 500
-        };
-
-        Plotly.newPlot('myDiv2', data2, layout);
-
-    </script>
 </body>
 </html>

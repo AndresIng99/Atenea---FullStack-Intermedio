@@ -18,9 +18,10 @@
         echo '
         <tr>
             <td>'.$a.'</td>
-            <td>'.$datos1['id'].'</td>
-            <td>'.$datos1['marca'].'</td>
-            <td>'.$datos1['ventas'].'</td>
+            <td>'.$datos1['cifc'].'</td>
+            <td>'.$datos1['cifcl'].'</td>
+            <td>'.$datos1['codcoche'].'</td>
+            <td>'.$datos1['color'].'</td>
         </tr>';
         $a++;
     }

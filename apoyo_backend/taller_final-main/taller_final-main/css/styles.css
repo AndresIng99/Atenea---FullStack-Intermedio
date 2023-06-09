@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+
+
+}
+
+.shadow{
+    background-color: #000000;
+    width: 60%;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 62% 64%, 54% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 75% 0%, 62% 64%, 54% 100%, 0% 100%);
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    width: 100%;
+
+
+}
+.fa-magnifying-glass{    
+    margin-top: 5px;
+    padding: 2.5px;
+    color: #FEDB10 ;
+    font-size: 15px;
+
+}
+
+ul {
+    margin-right: 12%;
+    justify-items: left;
+    display: flex;
+    list-style: none;
+}
+
+li {
+
+    padding: 1%;
+
+}
+
+a {
+
+    padding: 2%;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #FEDB10;
+    font-size: 0.8rem;
+
+}
+
+/*ESTILOS INICIO*/
+
+.estilos-inicio {
+    margin: 0%;
+    margin-top: -1%;
+    margin-bottom: 0%;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+    clip-path: polygon(0 2%0, 100% 0, 70% 80%, 0%  100%);   
+}
+
+.logo {
+    margin-top: 8%;
+    margin-left: 12%;
+    width: 72%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.slogan {
+    margin-bottom: 2%;
+    margin-left: 25px;
+    width: 320px;
+    margin-top: 2%;
+    background-color: #04040466;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.slogan h1 {
+    padding-right: 4%;
+    padding-left: 6%;
+    color: #FEDB10;
+    margin-left: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    font-size: 1.4rem;
+    text-align: left;
+
+
+}
+
+.tomato {
+
+    background-color: #FEDB10;
+}
+
+span {
+
+    padding: 32px;
+}
+
+.slogan_inicial {
+
+    text-align: left;
+}
+
+.descripcion-container {
+    margin-bottom: 6%;
+    margin-top: 15px;
+    text-align: right;
+
+
+
+}
+
+.descripcion {
+    width: 210px;
+    margin-left: 6.5%;
+    color: #FED10F;
+    font-size: 1.4rem;
+    text-align: right;
+}
+
+.contenedor_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+
+}
+
+video {
+    animation-fill-mode: backwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    
+}
+
+
+
+
+/*ESTILOS MENÚ*/
+
+.estilos-menu {
+
+    position: relative;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 150px;
+    z-index: 1;
+    background-position: right;
+    background-image: url(../recursos/istockphoto-1184112068-612x612.jpg);
+    background-size: cover;
+}
+
+.titulo-menu {
+
+    color: #FEDB10;
+    background-color: #05050532;
+    margin-left: 0;
+    padding-left: 150px;
+    font-size: 1.4rem;
+    padding-bottom: 0%;
+    height: 1%;
+    width: 100%;
+}
+
+/*CAROUSEL MENU*/
+
+.card img {
+    margin-left: 2%;
+    margin-top: 28%;
+    width: 80%
+}
+
+.card h1 {
+    margin-top: 1%;
+    margin-left: 0%;
+    color: #FEDB10;
+    font-weight: bold;
+    font-size: 12px;
+    width: 80%;
+
+}
+
+.pedirahora {
+    padding: 6%;
+    padding-left: 1%;
+    font-size: 10%;
+    margin-top: 2%;
+    background-color: #0404044a;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: flex-start;
+    float: left;
+}
+
+.card p {
+    margin-top: 1%;
+    padding: 4%;
+    background-color: #07070748;
+    color: white;
+    font-size: 11px;
+    width: 80%;
+    height:30%;
+    justify-content:flex-end;
+    text-align:justify;
+    margin-left: 10%;
+}
+
+.carousel {
+    border-radius: 0.8%;
+    border: #000000;
+    height: 61%;
+    width: 70%;
+    margin-left: 15%;
+    overflow: hidden;
+    position: relative;
+    background-color: #0404048e;
+    margin-top: 100px;
+    
+    text-align: justify;
+}
+
+.titulopizzacarousel {
+    margin-top: 4%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.cards-container {
+    margin-top: -4%;
+    margin-right: 9%;
+    margin-left: 2.5%;
+    display: flex;
+    transition: transform 0.5s;
+    gap: 16px;
+    margin-bottom: -4%;
+}
+
+.fa {
+    margin-left: 15px;
+}
+
+ /* Asegura que se muestren tres tarjetas a la vez */
+
+.card {
+    flex: 0 0 calc(100% /3);
+   
+
+    /* ESTILOS DE LAS TARJETAS */
+
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: -12%;
+}
+
+
+.pepperoni img {
+    background-color: #000000e7;
+}
+
+.navigation {
+    width: 100%;
+    left: 50%;
+    margin-top: -300px;
+    bottom: 10px;
+}
+
+.prev-button {
+    background-color: #070707;
+    color: #FED10F;
+    font-size: 40px;
+    float: left;
+    margin-left: 80px;
+}
+.next-button {
+    font-size: 40px;
+    background-color: #070707;
+    color: #FED10F;
+    float: right;
+    margin-right: 80px;
+}
+
+
+/* FIN CAROUSEL MENÚ ---------- */
+
+
+/*ESTILOS NOSOTROS*/
+
+#estilos-nosotros {
+    background-color: rgb(9, 9, 9);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: relative;
+    height: auto;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    padding: 0.5%;
+    z-index: -1;
+    background-size: contain;
+
+
+}
+
+
+
+
+.container_white p {
+    margin-top: 0.5%;
+    text-justify: auto;
+    margin-left: 4.8%;
+    width: 54%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 1.1rem;
+    margin-bottom: 0%;
+    border-radius: 0.8%;
+    padding: 2.5%;
+
+
+}
+
+.h3 {
+    margin-left: 12%;
+    width: 100%;
+    color: #060606;
+    font-size: 18px;
+    background-color: #FEDB10;
+
+
+}
+
+.they {
+    border-radius: 2%;
+    top: 2%;
+    padding-left: -1%;
+    margin-left: 4.8%;
+    font-size: 2rem;
+    color: #FEDB10;
+    width: 32%;
+    height: 8%;
+}
+
+.Alma {
+    color: #FEDB10;
+    font-size: 18px;
+    align-content: center;
+    
+
+}
+
+p {
+    font-size: 14px;
+    margin: 6% 2% 5% 8%;
+
+}
+
+.img2 {
+    width: 42%;
+}
+
+.img2 {
+    max-width: 120%;
+    position: relative;
+    top: -242px;
+    left: 59%;
+    height: auto;
+    min-height: 100%;
+}
+
+
+
+.slogan_logo2 {
+
+    width: 34%;
+    margin-left: 28%;
+    margin-top: -0%;
+    padding-top: 0%;
+
+}
+
+.container_white {
+
+    padding-top: -26%;
+    width: 82%;
+    margin-top: -900px;
+    margin-left: 120px;
+    margin-bottom: 12%;
+
+}
+
+
+/*SECCION CONTACTO*/
+
+.contacto {
+    min-height: 100vh;
+    padding: 0%;
+}
+
+.estilos-contacto {
+
+    margin-top: -1%;
+    margin-bottom: 0%;
+    position: relative;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:right;
+    padding: 0%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../recursos/pizcita.jpg);
+}
+
+.contac {
+    margin-top: -100%;
+    color: #FEDB10;
+    margin-left: 12%;
+    font-size: 1.2rem;
+    margin-bottom: -6%;
+}
+
+    /* ESTILOS GENERALES */
+
+    .form-container {
+     margin-top: 0.5%;
+      margin-left: -26%;
+      max-width: 360px;
+      height:30px ;
+      padding: 28px;
+      background-color: #f4f4f401;
+      border-radius: 2px;
+    }
+    
+    .form-container.form h2 {
+      text-align: center;
+    }
+    
+    .form-container label {
+      display: block;
+      color: white;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #080808;
+      border-radius: 4px;
+    }
+    
+    .form-container input[type="submit"] {
+      background-color: #FEDB10;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    .form-container input[type="submit"]:hover {
+      background-color: #FEDB10;
+    }
+
+/* ESTILOS PERSONALIZADOS PARA EL FORMULARIO */
+
+.form-container input[type="submit"] {
+    background-color:#FEDB10;
+    color: #080808;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: rgb(190, 252, 3);
+  }
+  
+
+  iframe {
+    margin-left: -186%;
+    width: 140%;
+    margin-top: 12%;
+    margin-bottom: -0%;
+    padding-top:18% ;
+    padding-bottom: 2.2%;
+    border-radius: 1%;
+   
+}
+hr{
+    border: 0.5px solid #FEDB10;
+    width: 98%;
+    margin: auto;
+
+}
+
+/*FOOTER*/
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+}
+footer i{
+    font-size: 50px;
+    color:#FEDB10;
+    padding: 65px;
+    transition: all 1s;
+}
+footer i:hover{
+    font-size: 70px;
+    color: rgb(190, 252, 3);
+    padding: 65px;
+    transition: all 1s;
+}
+
+@media screen and (max-width: 1092px) {
+   
+    
+    .h3 {
+        margin-left: 12%;
+        width: 100%;
+        color: #060606;
+        font-size: 18px;
+        background-color: #FEDB10;
+    
+    
+    }
+    
+    .they {
+        border-radius: 2%;
+        top: 2%;
+        padding-left: -1%;
+        margin-left: 4.8%;
+        font-size: 2rem;
+        color: #FEDB10;
+        width: 30%;
+        height: 8%;
+    }
+    
+    .Alma {
+        color: #FEDB10;
+        font-size: 16px;
+        align-content: center;
+        
+    
+    }
+    
+    p {
+        font-size: 14px;
+        margin: 6% 2% 5% 8%;
+    
+    }
+    
+    .img2 {
+        width: 42%;
+    }
+    
+    .img2 {
+        max-width: 100%;
+        position: relative;
+        top: -242px;
+        left: 58%;
+        height: auto;
+        min-height: 100%;
+    }
+    
+    
+    
+    .slogan_logo2 {
+    
+        width: 24%;
+        margin-left: 28%;
+        margin-top: 2%;
+    
+    }
+    
+    .container_white {
+    
+        padding-top: -26%;
+        width: 82%;
+        margin-top: -900px;
+        margin-left: 120px;
+        margin-bottom: 12%;
+    
+    }
+    
+
+  
+    }
+
+@media screen and (max-width: px) 
+    {
+
+    }
+    
+  
+
+@media screen and (max-width: px) {
+    
+    
+}

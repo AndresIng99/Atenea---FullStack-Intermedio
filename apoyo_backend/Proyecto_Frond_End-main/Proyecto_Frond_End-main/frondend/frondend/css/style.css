@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../img/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding-top: 30px;
+    display: inline-flex;
+    position: fixed;
+}
+
+.menu div{
+    height: 400px;
+}
+
+.primerapar{
+    width: 40%;
+    text-align: right;
+}
+
+.segundapar{
+    width: 40%;
+    text-align: left;
+}
+
+.logo{
+    width: 20%;
+    text-align: center;
+}
+
+div img{
+    height: 100px;
+    width: 100px;
+}
+
+div li{
+    padding-top: 0px;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 25px 60px;
+    font-size: px;
+    color: white;
+    font-style: normal;
+    font-weight:1000;
+    font-size: 55px;
+    line-height: 55px;
+
+    
+}
+
+.inicial{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.imgprincipal{
+    width: 50%;
+}
+
+.imgprincipal img{
+    /*width: 632px;
+    height: 755px;
+    padding: 0px 0px 0px 200px;*/
+    position: absolute;
+    width: 632px;
+    height: 755px;
+    left: 90px;
+    top: 273px;
+}
+
+.contprincipal{
+    width: 50%;
+    font-size: 40px;
+}
+
+.contprincipal p{
+    /*position: absolute;
+    left: 1000px;
+    top: 400px;
+    color: white;*/
+    position: absolute;
+    width: 873px;
+    height: 320px;
+    left: 894px;
+    top: 400px;
+
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 90px;
+    line-height: 89px;
+    color: white;
+}
+
+.contprincipal button{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578px;
+    height: 124px;
+    left: 1085px;
+    top: 745px;
+
+    background: rgba(255, 255, 255, 0.79);
+    border: 5px solid #FF0099;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 69px;
+    color: #FF0099;
+}
+
+.contprincipal button:hover{
+    box-shadow: 0px 0px 10px rgba(236, 227, 235, 0.97);
+    transition: all 1s;
+}
+
+.slide{
+    width: 100%;
+    height: auto;
+    background-color: #FF0099;
+}
+
+
+
+.barra{
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+
+}
+.contenedorBarra{
+    background-color: aqua;
+    width: 1100px;
+    margin: 0px auto;
+
+
+
+}
+
+.contenedorBarra nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorBarra nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #FF0099;
+}
+
+.contenedorImagen{
+    background-color: gray;
+    object-fit: cover;
+    width: 10vw;
+}
+
+
+.contenedorImagen img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1110px) {
+    .contenedorBarra {
+        background-color: blue;
+        width: 100%;
+        margin: 0px auto;   
+     }
+  }

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+
+
+body{
+  height: auto;
+  width: auto;
+  background-image: url('../img/background3contacto.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 13px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+  font-size: 16px;
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 65px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background:#FF0099;
+  border: 5px solid #FF0099;
+  font-size: 15px;
+  border-style: solid; 
+  border-radius: 40px; 
+  width: 420px;   
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover{
+  box-shadow: 0px 0px 10px rgb(190, 55, 190);
+  transition: all 1s;
+}
+
+
+button p{
+  color:white;
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 18px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  text-align: center;
+  font-size: 40px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color:#FF0099;
+}
+
+
+h3{
+  font-size: 20px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 18px; 
+  color: #0e0e0e;
+  font-weight: bold;
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}

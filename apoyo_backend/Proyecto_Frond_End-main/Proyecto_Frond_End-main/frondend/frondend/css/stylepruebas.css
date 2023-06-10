@@ -1,0 +1,13 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url('../img/sitio_en_construccion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    

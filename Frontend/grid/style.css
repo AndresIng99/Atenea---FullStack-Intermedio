@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    padding: 30px;
+    background-color: aqua;
+   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+    minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.grid-container div{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}

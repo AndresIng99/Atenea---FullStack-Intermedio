@@ -1,0 +1,1051 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "Indie Garage",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2 (Pro)",
+            "screenshot": "screenshots\/home-2-pro-.jpg",
+            "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Car Sales",
+            "screenshot": "screenshots\/car-sales.jpg",
+            "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Requests (Pro)",
+            "screenshot": "screenshots\/service-requests-pro-.jpg",
+            "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.jpg",
+            "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Racing Team",
+            "screenshot": "screenshots\/racing-team.jpg",
+            "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact 2 (Pro)",
+            "screenshot": "screenshots\/contact-2-pro-.jpg",
+            "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.6",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [],
+    "images": [
+        {
+            "filename": "conor-luddy-kf4KHfDlIIg-unsplash-kit.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/conor-luddy-kf4KHfDlIIg-unsplash-kit-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 1537948,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "joey-banks-YApiWyp0lqo-unsplash-bg.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/joey-banks-YApiWyp0lqo-unsplash-bg-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 217094,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "bg.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/bg.png",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 2164,
+            "dimensions": [
+                46,
+                29
+            ]
+        },
+        {
+            "filename": "joey-banks-YApiWyp0lqo-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/joey-banks-YApiWyp0lqo-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 268979,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "conor-luddy-kf4KHfDlIIg-unsplash-alt.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/conor-luddy-kf4KHfDlIIg-unsplash-alt-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 376203,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "accident-adult-auto-2244746-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/accident-adult-auto-2244746-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 376900,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "andre-medvedev-vNH9b4LpUGw-unsplash-kit.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/andre-medvedev-vNH9b4LpUGw-unsplash-kit-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 948329,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "andre-medvedev-vNH9b4LpUGw-unsplash-bg.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/andre-medvedev-vNH9b4LpUGw-unsplash-bg-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 263199,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "olav-tvedt-oVaYMgBMbs-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/olav-tvedt-oVaYMgBMbs-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 77403,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "tim-krauss-90kh2QzQzPI-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/tim-krauss-90kh2QzQzPI-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-9b1b15d84054aaa99a99bfd57bfaaf19.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 78226,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "alex-mares-w4Ixo17CH30-unsplash-bg.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/alex-mares-w4Ixo17CH30-unsplash-bg-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                }
+            ],
+            "filesize": 317754,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "chris-liverani-HUJDz6CJEaM-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/chris-liverani-HUJDz6CJEaM-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                },
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                }
+            ],
+            "filesize": 130535,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "boostinjay-zTXxCXe0Tt8-unsplash-alt.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/boostinjay-zTXxCXe0Tt8-unsplash-alt-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2-pro-3d3aa3974503684dea3cb30c99776a72.json",
+                    "name": "Home 2 (Pro)"
+                }
+            ],
+            "filesize": 280704,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "alex-mares-w4Ixo17CH30-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/alex-mares-w4Ixo17CH30-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 344551,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "motah-TVFx7iFAAdQ-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/motah-TVFx7iFAAdQ-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 315129,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "joey-banks-32XFfJNAAjw-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/joey-banks-32XFfJNAAjw-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 337398,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "grant-ritchie-j0YPbvXu4t0-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/grant-ritchie-j0YPbvXu4t0-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/car-sales-ba150b2487a7174b0d479deb8c4ae976.json",
+                    "name": "Car Sales"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 410325,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "tobias-a-muller-rOLKpojjbGM-unsplash-alt.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/tobias-a-muller-rOLKpojjbGM-unsplash-alt-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 149994,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "boostinjay-zTXxCXe0Tt8-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/boostinjay-zTXxCXe0Tt8-unsplash-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 269332,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "aaron-huber-KxeFuXta4SE-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/aaron-huber-KxeFuXta4SE-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 331896,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "client2-1-o8x6ldya0hfmma18oua6ohilgpma7e4a3zx6txdsrg.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/client2-1-o8x6ldya0hfmma18oua6ohilgpma7e4a3zx6txdsrg.png",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                }
+            ],
+            "filesize": 1572,
+            "dimensions": [
+                200,
+                150
+            ]
+        },
+        {
+            "filename": "client5-1-o8x6lb4rfzbrng5c5b2az087ok06kat33lyqe3hza4.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/client5-1-o8x6lb4rfzbrng5c5b2az087ok06kat33lyqe3hza4.png",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                }
+            ],
+            "filesize": 2039,
+            "dimensions": [
+                200,
+                150
+            ]
+        },
+        {
+            "filename": "client4-1-o8x6l8b8vh7wom9flruf9ixtwee2x7hw3809y9m5ss.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/client4-1-o8x6l8b8vh7wom9flruf9ixtwee2x7hw3809y9m5ss.png",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                }
+            ],
+            "filesize": 1287,
+            "dimensions": [
+                200,
+                150
+            ]
+        },
+        {
+            "filename": "client3-o8x6ljlb5hncjxt1rwpy3g3d10uhhkqo4ru3pl5fq4.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/client3-o8x6ljlb5hncjxt1rwpy3g3d10uhhkqo4ru3pl5fq4.png",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                }
+            ],
+            "filesize": 2048,
+            "dimensions": [
+                200,
+                150
+            ]
+        },
+        {
+            "filename": "client1-o8x6lgrskzjhl3x58di2dysz8v8duhfh4dvn9r9m8s.png",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/client1-o8x6lgrskzjhl3x58di2dysz8v8duhfh4dvn9r9m8s.png",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                }
+            ],
+            "filesize": 1699,
+            "dimensions": [
+                200,
+                150
+            ]
+        },
+        {
+            "filename": "jonathan-gallegos-20F9ht9RY9s-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/jonathan-gallegos-20F9ht9RY9s-unsplash-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-b8e069e3b686e9470d785402ada40814.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 293996,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "accident-adult-auto-2244746-bg.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/accident-adult-auto-2244746-bg-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                }
+            ],
+            "filesize": 376822,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "olav-tvedt-oVaYMgBMbs-unsplash-filter-alt.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/olav-tvedt-oVaYMgBMbs-unsplash-filter-alt-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                }
+            ],
+            "filesize": 167408,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "4k-wallpaper-automotive-blur-1413412-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/4k-wallpaper-automotive-blur-1413412-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-requests-pro-82c27529a8caea0bc1243c29aca739a0.json",
+                    "name": "Service Requests (Pro)"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 224358,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "jens-lindner-4i7-mcM7xSY-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/jens-lindner-4i7-mcM7xSY-unsplash-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 788122,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "chris-liverani-HUJDz6CJEaM-unsplash-bg.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/chris-liverani-HUJDz6CJEaM-unsplash-bg-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers-b538f5c097d1f7ab2f1148c1d5d86df6.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 147996,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "matthew-dockery-s99-JP8P3Hg-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/matthew-dockery-s99-JP8P3Hg-unsplash-500x281.jpg",
+            "templates": [
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                }
+            ],
+            "filesize": 815695,
+            "dimensions": [
+                1920,
+                1080
+            ]
+        },
+        {
+            "filename": "max-bottinger-lA1v3CUERZw-unsplash-alt.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/max-bottinger-lA1v3CUERZw-unsplash-alt-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/racing-team-edfbed29f74111d1443cccc85eafbe44.json",
+                    "name": "Racing Team"
+                },
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 556965,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "conor-luddy-kf4KHfDlIIg-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/conor-luddy-kf4KHfDlIIg-unsplash-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 375077,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "kartik-bhattacharjee-vw0AmpZvHZg-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/kartik-bhattacharjee-vw0AmpZvHZg-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 377179,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "max-bottinger-0k_dCKxyIHc-unsplash.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/max-bottinger-0k_dCKxyIHc-unsplash-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 503889,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "jg-photography-hGIzTJ2Jvmw-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/jg-photography-hGIzTJ2Jvmw-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 234712,
+            "dimensions": [
+                800,
+                500
+            ]
+        },
+        {
+            "filename": "andre-medvedev-vNH9b4LpUGw-unsplash-filter.jpg",
+            "thumbnail_url": "https:\/\/wp.envatoextensions.com\/kit-183\/wp-content\/uploads\/sites\/177\/2019\/08\/andre-medvedev-vNH9b4LpUGw-unsplash-filter-500x313.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery-f2e82237134daccbd69767988569cbb9.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-08e6168ed83ae4418b427d5bb0b94f1d.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/contact-2-pro-2dd30032dbab5c695d9807e0007f39bf.json",
+                    "name": "Contact 2 (Pro)"
+                }
+            ],
+            "filesize": 256489,
+            "dimensions": [
+                800,
+                500
+            ]
+        }
+    ]
+}

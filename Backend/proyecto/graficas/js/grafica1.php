@@ -6,14 +6,24 @@
         x: $datosX,
         y: $datosY,
         line: {
-            color: 'rgb(77, 209, 205)',
+            color: 'rgb(232, 23, 44)',
             shape: 'spline',
-            dash: 'dashdot',
+            dash: 'solid',
             width: 2
         },
         type: 'scatter'
     };
 
     var data = [trace1];
-    Plotly.newPlot('myDiv', data);
+
+    var layout = { 
+        title: 'Responsive to window\'s size!',
+        font: {size: 18}
+    };
+
+    
+
+    var config = {responsive: true};
+
+    Plotly.newPlot('myDiv', data, layout, config);
 </script>
